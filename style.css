@@ -4,7 +4,7 @@ html {
 
 * {
     box-sizing: border-box;
-    outline: 2px solid red;
+    utline: 2px solid red;
 }
 
 body {
@@ -41,7 +41,7 @@ a {
 #logo {
     font-size: 34px;
     color: rgb(196, 185, 205);
-    color: rgb(214, 35, 71);
+    color: rgb(233, 54, 90);
     height: auto;
     border: 1px solid rgb(196, 185, 205);
     padding: 4px 8px;
@@ -145,3 +145,42 @@ li {
     text-align: center;
 }
 
+#call-to-subscribe {
+    background-color:rgb(196, 185, 205);
+    display: flex;
+    justify-content: center;
+}
+
+#box {
+    background-color:rgb(47, 105, 105);
+    display: flex;
+    padding: 80px 200px;
+    border-radius: 180px;
+    gap: 190px;
+    align-items: center;
+}
+
+#call-box {
+    flex-direction: column;
+    display: flex;
+    width: 309.8px;
+}
+
+#sub {
+    color:rgb(219, 212, 224);
+    font-weight: 400;
+    font-size: 48px;
+}
+
+button{
+    height: 32px;
+    background-color: rgb(205, 21, 21);
+    border-style: none;
+    border-radius: 5px;
+    color:rgb(219, 212, 224);
+    width: 100px;
+}
+
+#button {
+    color:rgb(219, 212, 224);
+}
