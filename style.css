@@ -4,7 +4,7 @@ html {
 
 * {
     box-sizing: border-box;
-    utline: 2px solid red;
+    outline: 2px solid red;
 }
 
 body {
@@ -18,7 +18,7 @@ a {
     text-decoration: none;
     color: rgb(219, 212, 224);
     display: block;
-    padding: 2px 4px;
+    padding: 4px 8px;
 }
 
 .container {
@@ -43,9 +43,9 @@ a {
     color: rgb(196, 185, 205);
     color: rgb(214, 35, 71);
     height: auto;
-    border: 2px solid rgb(196, 185, 205);
+    border: 1px solid rgb(196, 185, 205);
     padding: 4px 8px;
-    border-radius: 10px;
+    border-radius: 100px;
 }
 
 .links {
@@ -58,7 +58,90 @@ a {
 
 li {
     border: 1px solid rgb(47, 105, 105);
-    background-color: rgb(82, 119, 119);
-    border-radius: 5px;
+    border-radius: 150px;
+}
+
+#overview {
+    background-color: rgb(57, 136, 132);
+    justify-content: center;
+}
+
+#overview-box {
+    border: 3px solid rgb(196, 185, 205);
+    border-radius: 150px;
+    display: flex;
+    align-items: center;
+}
+
+#words {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 10px;
+    padding: 56px;
+}
+
+#name {
+    font-size: 48px;
+    font-weight: 500;
+    color: rgb(219, 212, 224);
+    text-align: right;
+}
+
+#description {
+    font-size: 18px;
+    color: rgb(219, 212, 224);
+    text-align: right;
+}
+
+#image {
+    border-left: 2px solid rgb(196, 185, 205);
+    height: 300px;
+    width: 300px;
+    background-color: grey;
+    border-top-right-radius: 150px;
+    border-bottom-right-radius: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: -1px;
+}
+
+#playlists {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+#playlist-word {
+    font-weight: 600;
+    color: rgb(47, 105, 105);
+    font-size: 34px;
+    text-align: center;
+}
+
+#actual-playlists {
+    display: flex;
+    gap: 44px;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 1000px;
+}
+
+.pl-combo {
+    display: flex;
+    flex-direction: column;
+}
+
+.pl-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 25px;
+    border: 2px solid rgb(57, 136, 132);
+}
+
+.pl-description {
+    text-align: center;
 }
 
